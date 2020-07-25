@@ -8,6 +8,7 @@ import {
   Dimensions,
 } from 'react-native';
 import {ImageHeader, Logo} from '../../assets';
+import { Saldo } from '../../components/';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
           <Text style={styles.username}>afifbasya</Text>
         </View>
       </ImageBackground>
+      <Saldo />
     </View>
   );
 };
@@ -43,7 +45,7 @@ const styles = StyleSheet.create({
     height: windowHeight * 0.06,
   },
   hello: {
-      marginTop: windowHeight*0.025
+      marginTop: windowHeight*0.030
   },
   selamat : {
       fontSize: 24,
